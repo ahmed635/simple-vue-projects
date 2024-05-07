@@ -1,0 +1,9 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    @apply bg-primary h-screen overflow-auto flex justify-center p-6;
+}
